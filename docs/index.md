@@ -7,59 +7,55 @@ permalink: "/"  #! Remove this if not the homepage
 
 # Creating Data Visualizations Using Tableau Desktop (Beginner)
 
-This guide is suitable for new Tableau users looking for information on producing popular data visualizations in Tableau, such as bar graphs, line graphs, scatterplots, tree maps, and dashboards. If you are looking for more general data visualization tips, please see the Map and Data Library's [Data Visualization Guide.](https://mdl.library.utoronto.ca/dataviz/getting-started)You can find instructions on installing and acquiring a free academic license for Tableau [here](https://mdl.library.utoronto.ca/technology/tutorials/installing-tableau-desktop). If you are running Tableau on a Mac, please note that there may be some variation between the Windows version used to design this guide and the program as it appears on a Mac.
+This guide is suitable for new Tableau users looking for information on producing popular data visualizations in Tableau, such as bar graphs, line graphs, scatterplots, tree maps, and dashboards. If you are looking for more general data visualization tips, please see the Map and Data Library's [Data Visualization Guide.](https://mdl.library.utoronto.ca/dataviz/getting-started) You can find instructions on installing and acquiring a free academic license for Tableau [here](https://mdl.library.utoronto.ca/technology/tutorials/installing-tableau-desktop). If you are running Tableau on a Mac, please note that there may be some variation between the Windows version used to design this guide and the program as it appears on a Mac.
 
 The data used in this guide are public datasets retrieved from the World Bank’s Open Data repository, the United Nation's Open Data Population Division, and the full text of Shakespeare's Romeo and Juliet available through MIT's website, with a frequency table generated through Voyant Tools. You can find more information regarding the data sources used in this guide in the subsection entitled "10. Data Sources".
 
- 
+This tutorial was created using Tableau Desktop version 2020.2.
+
 
 **Table of Contents**
----------------------
 
-[1. Opening Datasets in Tableau](#1)
+[1. Opening Datasets in Tableau](#open-datasets-in-tableau)
 
-[2. Beginning Work](#2)
+[2. Beginning Work](#beginning-work)
 
-[3. Creating a Simple Bar Graph](#3)
+[3. Creating a Simple Bar Graph](#creating-a-simple-bar-graph)
 
-[4. Creating a Simple Line Graph](#4)
+[4. Creating a Simple Line Graph](#creating-a-simple-line-graph)
 
-[5. Creating Simple Scatter Plots and Merging Datasets](#5)
+[5. Creating Simple Scatter Plots and Merging Datasets](#creating-simple-scatter-plots-and-merging-datasets)
 
-[6. Creating a Tree Map](#6) 
+[6. Creating a Tree Map](#creating-a-tree-map) 
 
-[7. Creating a Stacked Bar Chart and Using Parameters](#7)
+[7. Creating a Stacked Bar Chart and Using Parameters](#creating-a-stacked-bar-chart-and-using-parameters)
 
-[8. Creating a Dashboard](#8)
+[8. Creating a Dashboard](#creating-a-dashboard)
 
-[9. Publishing Tableau Visualizations and Further Resources](#9)
+[9. Publishing Tableau Visualizations and Further Resources](#publishing-tableau-visualizations-and-further-resources)
 
-[10. Data Sources](#10)
+[10. Data Sources](#data-sources)
 
  
 
-**1. Opening Datasets in Tableau**
------------------------------------
-
+1. Opening Datasets in Tableau 
+{: #open-datasets-in-tableau}
 When you first open Tableau, it looks like this. The main page presents you with several options, such as connecting to a file, to a server, or to save sample data sources. You can also access Tableau’s online training through the “Discover” tab on the right, or access Tableau's help section (with tutorials) [here.](https://www.tableau.com/support/help)
-
-![Initial Tableau start-up page showing connect to file options and sample dataset options]({{ '/assets/images/Tableau_1_0.PNG' | relative_url }})
-
- 
+    ![Initial Tableau start-up page showing connect to file options and sample dataset options]({{ '/assets/images/Tableau_1_0.PNG' | relative_url }})
 
 2. Beginning Work
+{: #beginning-work}
 
 In order to begin making visualizations, you must import a dataset into Tableau (such as an Excel spreadsheet) or select a sample dataset from Tableau (such as those located in the bottom left of the page as you open Tableau). For the purposes of this guide, you may download the datasets we will be using for this tutorial in a .Zip file [here](https://maps.library.utoronto.ca/datapub/workshops/TableauDataFiles.zip). You will need to extract the files from the zipped folder using a software such as [7-Zip](https://www.7-zip.org/).
 
- 
-
 3. Creating a Simple Bar Graph
+{: #creating-a-simple-bar-graph}
 
 Our first dataset is an Excel file, so in Tableau, click on **Excel** under **Connect To a File**, and select the *2015RainfallByMonthByCountry.xls*file. Click **Open**.  
-![Connect to file menu with Microsoft Excel highlighted.]({{ '/assets/images/TableauVisualization_1.png' | relative_url }})
+    ![Connect to file menu with Microsoft Excel highlighted.]({{ '/assets/images/TableauVisualization_1.png' | relative_url }})
 
 Click on **Sheet 1** (at the bottom, the tab to the right of "Data Source") to open up a worksheet and start creating your visualization.  
-![Highlight of Sheet 1 icon]({{ '/assets/images/icon.PNG' | relative_url }})
+    ![Highlight of Sheet 1 icon]({{ '/assets/images/icon.PNG' | relative_url }})
 
 On the left, you can see our variables listed. Tableau categorized the variables as either **Dimensions** or **Measures**, listing all the Dimensions first above the gray line, and then all the Measures below the grayline.
 
@@ -124,7 +120,8 @@ If you like this visualization and would like to learn how to save, export, or 
  
 
 4. Creating a Simple Line Graph
---------------------------------
+{: #creating-a-simple-line-graph}
+
 
 Okay, let’s create a new visualization: A line graph of average monthly temperature data by country (looking again at the same range of years, 1901-2015). First, we need to load some more data. Go to the top **Data** Menu and select **New Data Source**. Select **Excel** and choose the *2015TemperaturesByMonthByCountry.xls* file.  
 ![Adding a new data source, with "New Data Source" option highlighted. ]({{ '/assets/images/TableauVisualization_3.png' | relative_url }})
@@ -196,7 +193,7 @@ Again, we can give our visualization a more meaningful title by double clicking 
  
 
 5. Creating a Series of Simple Scatter Plots and Merging Datasets
-------------------------------------------------------------------
+{: #creating-simple-scatter-plots-and-merging-datasets}
 
 Sometimes you have to pull data from multiple sources instead of having it all in one Excel file. So, let’s add a couple more datasets, but this time we’re going to match them up, or have Tableau join them together so we will have one large dataset to work from.
 
@@ -256,7 +253,7 @@ Again, you may be interested in giving your visualization a name, which you can 
  
 
 6. Creating a Simple Treemap
------------------------------
+{: #creating-a-tree-map}
 
 Go to the top **Data** Menu and select **New Data Source**. Select **Excel** and choose the *2016PopulationbyRegion.xls* file. This dataset lists population totals for various regions on earth.
 
@@ -281,7 +278,7 @@ You can hover over the blocks to get more information on the populations, or you
  
 
 7. Creating a Stacked Bar Chart and Using Parameters
------------------------------------------------------
+{: #creating-a-stacked-bar-chart-and-using-parameters}
 
 Go to the top **Data** Menu and select **New Data Source**. Select **Excel** and choose the *RomeoAndJulietWordFrequenciesByAct.xls* file. This dataset lists word frequencies in Romeo and Juliet by Act. Make sure to check how your variables are classified – note that “Act” is classed as a numeric variable when we know it is a string. You can change this now, as we did before, but we will also show you how to change this later in the guide (in the event you didn't notice this when you initially imported your dataset into Tableau!).
 
@@ -324,7 +321,7 @@ Your final product should resemble the image below. Your audience can use the 
  
 
 8.  Creating a Dashboard
--------------------------
+{: #creating-a-dashboard}
 
 Now so far we’ve been creating visualizations within worksheets. But you can also create dashboards that combine a number of worksheets together. We are now going to create a dashboard capable of displaying the average monthly rainfall and temperature for one country at a time. Let’s click on the **create new dashboard** icon at the bottom, next to the **new worksheet** icon.
 
@@ -351,7 +348,7 @@ Right-click again on the **Country** filter title, but this time select **Single
  
 
 9. Publishing Tableau Visualizations and Further Resources
------------------------------------------------------------
+{: #publishing-tableau-visualizations-and-further-resources}
 
 If you’re working on some visualizations, like we have been in this guide, you can save work-in-progress as a Tableau Workbook file. Go to the **File** menu and click on **Save**. Give it a name and select where you want to save the file. (Note: If you do this, it doesn’t save the underlying data, so you have keep the data file(s) - such as your Excel worksheets - and Tableau workbook together).
 
@@ -382,7 +379,7 @@ In some cases, you may download the workbooks these visualizations were created 
 For further learning, training videos, and tutorials, please explore the many resources available on the[Tableau Help page](https://www.tableau.com/support/help).
 
 10. Data sources
------------------
+{: #data-sources}
 
 **2015RainfallByMonthByCountry.xls** & **2015TemperaturesByMonthByCountry.xls** files:
 
