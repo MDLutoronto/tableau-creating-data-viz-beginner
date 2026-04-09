@@ -321,6 +321,3 @@ For further learning, training videos, and tutorials, please explore the many r
 **RomeoAndJulietWordFrequenciesByAct.xls** file from the play Romeo and Juliet by William Shakespeare full text: acquired via
 
 <http://shakespeare.mit.edu/romeo_juliet/full.html> and then split into a document per act and run through Voyant tools: [https://voyant-tools.org](https://voyant-tools.org)
-
-
-Technique: [Data Visualization](https://mdl.library.utoronto.ca/technique/data-visualization) | Tools: [Excel](https://mdl.library.utoronto.ca/tools/excel-0), [Tableau](https://mdl.library.utoronto.ca/tools/tableau)
