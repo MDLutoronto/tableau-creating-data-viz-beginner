@@ -2,6 +2,13 @@
 title: 8.  Creating a Dashboard
 parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
 layout: default
+created_date: 2019-03-27
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 8
 ---
 
@@ -23,3 +30,5 @@ Go back to the dashboard by selecting its tab at the bottom. Right-click on the 
 
 Right-click again on the **Country** filter title, but this time select **Single Value (list**). This will make sure that your audience can only view one country at the time. Now you’ll see that when you select one country, both graphs refer to that country.
     ![Image displaying a dropdown menu emerging from the Country filter title. In the dropdown menu ‘Single Value (list)' is selected. ]({{ '/assets/images/tableau_beginner_008d.jpg' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel), [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

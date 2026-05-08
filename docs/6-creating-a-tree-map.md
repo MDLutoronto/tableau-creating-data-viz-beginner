@@ -2,6 +2,13 @@
 title: 6. Creating a Simple Treemap
 parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
 layout: default
+created_date: 2019-03-27
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 6
 ---
 
@@ -22,3 +29,5 @@ Finally, drag the **Continent** onto the **Color** box to colour code the blocks
 
 You can hover over the blocks to get more information on the populations, or you could label it as well. Drag the **Population** variable again over the **Label** box to include that information under the region name. You have completed a simple treemap!
     ![Image highlighting the variable ‘2016Population’ in the Measures section, the location of the Label box in the Marks card, and the resulting tree map with the new labels.]({{ '/assets/images/tableau_beginner_006b.JPG' | relative_url }})
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel), [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

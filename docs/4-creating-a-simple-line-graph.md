@@ -2,6 +2,13 @@
 title: 4. Creating a Simple Line Graph
 parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
 layout: default
+created_date: 2019-03-27
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 4
 ---
 
@@ -33,7 +40,7 @@ We would like to see each country’s data separately, so let’s drag the **Cou
 
 One way to simplify this would be to show 2 countries to compare their temperature distributions. Drag the **Country** variable over to the **Filters** shelf. Click on the **None** button to first clear the selections. Then select two countries only – let’s pick **Canada** and **Brazil**. Now we are just filtering the data to show only Canada and Brazil.
 
-**Note** that if you can't see this Country legend, then you need to move or close the "Show Me" window, which could be concealing the legend. Go ahead and move or close the window so that you can see the legend.
+**Note:** that if you can't see this Country legend, then you need to move or close the "Show Me" window, which could be concealing the legend. Go ahead and move or close the window so that you can see the legend.
     ![Line graph shows temperatures for Brazil and Canada, with the Filters and Country boxes highlighted]({{ '/assets/images/BrazilCAN2_0.JPG' | relative_url }}) 
 
 Another way we could do this would be to allow the user to filter it themselves based on what countries they are interested in. To do that, go back to the **Filters** shelf, right-click on the **Country** pill and pick **Edit Filter…** Select the **All** button to re-select all the countries and then click **OK**. Then right-click on the **Country** pill again, but this time select **Show Filter**. Now you can see the filters show up on the right. We can select or deselect as we like and the graph changes.
@@ -57,3 +64,5 @@ Here you can pick from a drop-down menu of various qualitative palettes, includi
     ![Pop-up window displaying the Edit Colors options, with the ‘Assign Palette’ button highlighted]({{ '/assets/images/ColourBlind.JPG' | relative_url }})    
 
 Again, we can give our visualization a more meaningful title by double clicking on **Sheet 2** at the top and replacing the text with our title “Average Monthly Temperature for Various Countries” and click **OK**. You have completed a simple line graph in Tableau Desktop!
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel), [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
