@@ -2,12 +2,19 @@
 title: 3. Creating a Simple Bar Graph
 parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
 layout: default
+created_date: 2019-03-27
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 3
 ---
 
 ## 3. Creating a Simple Bar Graph
 
-Our first dataset is an Excel file, so in Tableau, click on **Excel** under **Connect To a File**, and select the *2015RainfallByMonthByCountry.xls*file. Click **Open**.  
+Our first dataset is an Excel file, so in Tableau, click on **Excel** under **Connect To a File**, and select the *2015RainfallByMonthByCountry.xls* file. Click **Open**.  
    ![Connect to file menu with Microsoft Excel highlighted.]({{ '/assets/images/TableauVisualization_1.png' | relative_url }})
    
 Click on **Sheet 1** (at the bottom, the tab to the right of "Data Source") to open up a worksheet and start creating your visualization.  
@@ -54,4 +61,6 @@ You can also annotate your visualization. Perhaps you want to point out that the
    
 Finally, we can give our visualization a title by double-clicking on **Sheet 1** at the top and replacing the text with our title “Average Monthly Rainfall for India” and click **OK**. Done! You have created your first visualization on Tableau Desktop.    
     ![Final bar graph is shown with the new text box and new title highlighted.]({{ '/assets/images/tableau_beginner_003f.JPG' | relative_url }})   
-If you like this visualization and would like to learn how to save, export, or print it at this point in time, you can skip ahead to Section 9: [Publishing Tableau Visualizations and Further Resources](#publishing-tableau-visualizations-and-further-resources). However, you can always come back and save all of your visualizations at the end if you would prefer to proceed to the next section.  
+If you like this visualization and would like to learn how to save, export, or print it at this point in time, you can skip ahead to Section 9: [Publishing Tableau Visualizations and Further Resources](https://mdlutoronto.github.io/tableau-creating-data-viz-beginner/9-publishing-tableau-visualizations-and-further-resources/). However, you can always come back and save all of your visualizations at the end if you would prefer to proceed to the next section.  
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel), [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

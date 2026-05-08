@@ -2,6 +2,13 @@
 title: 9. Publishing Tableau Visualizations and Further Resources
 parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
 layout: default
+created_date: 2019-03-27
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 9
 ---
 
@@ -13,7 +20,7 @@ If you’re working on some visualizations, like we have been in this guide, you
 Or you can **Export Packaged Workbook…** (also from the **File** menu). Then you could share that file with others who have Tableau (and this time it would include the data). In both cases, you can always come back later to revisit your work by reopening it on Tableau Desktop.
     ![How to Export Package Workbook using the File tab. Export Package Workbook highlighted.]({{ '/assets/images/Visualization_10.png' | relative_url }})
 
-If you want to export one of your worksheets to an image you can use in a report or article, you can do so from the **Worksheet** menu. First, go to the worksheet tab you want to save. Then, open the **Worksheet** menu and use the **Copy**or **Export**options to copy/ paste your visualization into a document/ image editing software or export it directly.    
+If you want to export one of your worksheets to an image you can use in a report or article, you can do so from the **Worksheet** menu. First, go to the worksheet tab you want to save. Then, open the **Worksheet** menu and use the **Copy** or **Export** options to copy/ paste your visualization into a document/ image editing software or export it directly.    
     ![Worksheet tab with Copy and Export highlighted.]({{ '/assets/images/Visualization_7.png' | relative_url }})
 
 You can do the same thing for your whole Dashboard from the **Dashboard** menu (“Copy” or “Export” image). Try it out! **Note:** these options only share a static image, without the filter capabilities we added to the dashboard in the previous section. If you want your users to interact with your visualization, continue reading below.    
@@ -28,3 +35,5 @@ In some cases, you may download the workbooks these visualizations were created 
     ![Image showing a sample Tableau Public dashboard and the download options for this dashboard, including Image, PDF, Powerpoint, and Workbook]({{ '/assets/images/sharingtableau%20workbooks.PNG' | relative_url }})
 
 For further learning, training videos, and tutorials, please explore the many resources available on the [Tableau Help page](https://www.tableau.com/support/help).
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel), [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

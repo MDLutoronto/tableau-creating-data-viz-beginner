@@ -2,6 +2,13 @@
 title: 5. Creating a Series of Simple Scatter Plots and Merging Datasets
 parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
 layout: default
+created_date: 2019-03-27
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+maintainer:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
 nav_order: 5
 ---
 
@@ -20,7 +27,7 @@ You can now see the two datasets listed under connections. In order to relate th
 Ensure the dataset AuthorDataExperience is selected and drag its **sheet**, also named **AuthorDataExperience** beside AuthorDataMain.    
     ![The Data Source Page Display is shown, with the Sheets section and AuthorDataMain section highlighted.]({{ '/assets/images/tableau_beginner_005b.JPG' | relative_url }})
 
-At the top you can now see the two datasets listed, and below you’ll see that Tableau has joined the two together, matching based on the author name. If you want to double check this, click on the **circles** between the two dataset names at the top; this will also provide you with more information about how the join was completed by Tableau. You can see from the icons that Tableau has done an inner join, matching the column Author in one dataset with the Author column in the second dataset. It has copied pasted that information about the author’s years of experience next to that author wherever the author shows up in the first table. The inner join means that it only keeps data on an author if that author shows up in both tables. (Note: If database joins are new to you, see this [resource](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins) for a detailed explanation.)   
+At the top you can now see the two datasets listed, and below you’ll see that Tableau has joined the two together, matching based on the author name. If you want to double check this, click on the **circles** between the two dataset names at the top; this will also provide you with more information about how the join was completed by Tableau. You can see from the icons that Tableau has done an inner join, matching the column Author in one dataset with the Author column in the second dataset. It has copied pasted that information about the author’s years of experience next to that author wherever the author shows up in the first table. The inner join means that it only keeps data on an author if that author shows up in both tables. (Note: If database joins are new to you, see this [resource](https://help.tableau.com/current/pro/desktop/en-us/datasource_relationships_learnmorepage.htm#joins) for a detailed explanation.)   
     ![The new connection between datasets is illustrated with a small Venn Diagram]({{ '/assets/images/Section5%20T2.PNG' | relative_url }})
 
 Again, once you're happy with your data, you can create a new worksheet to start building a new visualization by clicking on the **new worksheet icon** (at the bottom left of your screen to the right of the Data Source).
@@ -50,3 +57,5 @@ Now you should see some "Year" controls on the right. The user can scroll throug
     <img src='{{ '/assets/images/TableauBeginnerUpdate-5.10.jpg' | relative_url }}' alt='' title='' width='1699' height='964' />
 
 Again, you may be interested in giving your visualization a name, which you can click and change at the top left of your scatter plot.
+
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel), [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
