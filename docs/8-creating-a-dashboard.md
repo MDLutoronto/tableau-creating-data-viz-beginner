@@ -1,6 +1,6 @@
 ---
 title: "8. Creating a Dashboard"
-parent: "Creating Data Visualizations Using Tableau Desktop (Beginner)"
+parent: "Creating Data Visualizations Using Tableau (Beginner)"
 layout: default
 created_date: 2019-03-27
 staff:
