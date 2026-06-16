@@ -1,5 +1,5 @@
 ---
-title: 2. Beginning Work
+title: 2. Dataset Setup
 parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
 layout: default
 created_date: 2019-03-27
@@ -12,9 +12,10 @@ maintainer:
 nav_order: 2
 ---
 
-## 2. Beginning Work
+## 2. Dataset Setup
 
+In order to begin making visualizations, you must import a dataset into Tableau (such as an Excel spreadsheet) or select a sample dataset from Tableau Desktop (such as those located in the bottom left of the page as you open Tableau Desktop). For the purposes of this guide, you can download the datasets we will be using for this tutorial in a [zip file](https://maps.library.utoronto.ca/datapub/workshops/TableauDataFiles.zip). You will then need to extract the files from the zip file. 
 
-In order to begin making visualizations, you must import a dataset into Tableau (such as an Excel spreadsheet) or select a sample dataset from Tableau (such as those located in the bottom left of the page as you open Tableau). For the purposes of this guide, you may download the datasets we will be using for this tutorial in a .Zip file [here](https://maps.library.utoronto.ca/datapub/workshops/TableauDataFiles.zip). You will need to extract the files from the zipped folder using a software such as [7-Zip](https://www.7-zip.org/).
+Note: Different computers have different setups for extracting all the files from a zip file. On Windows, you should be able to right click and select Extract All... Look at where the files are extracting and click on Browse if you need to adjust it. Then select Extract. On a Mac, just double-click on the file to extract its files.  
 
-**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel), [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
+**Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)
