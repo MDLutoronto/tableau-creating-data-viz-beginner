@@ -1,5 +1,5 @@
 ---
-title: 2. Dataset Setup
+title: "2. Dataset Setup"
 parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
 layout: default
 created_date: 2019-03-27

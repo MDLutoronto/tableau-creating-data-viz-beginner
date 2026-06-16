@@ -1,6 +1,6 @@
 ---
-title: 4. Creating a Simple Line Graph
-parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
+title: "4. Creating a Simple Line Graph"
+parent: "Creating Data Visualizations Using Tableau Desktop (Beginner)"
 layout: default
 created_date: 2019-03-27
 staff:

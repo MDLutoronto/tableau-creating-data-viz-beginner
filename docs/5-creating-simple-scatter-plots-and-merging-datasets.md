@@ -1,6 +1,6 @@
 ---
-title: 5. Creating a Series of Simple Scatter Plots and Merging Datasets
-parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
+title: "5. Creating a Series of Simple Scatter Plots and Merging Datasets"
+parent: "Creating Data Visualizations Using Tableau Desktop (Beginner)"
 layout: default
 created_date: 2019-03-27
 staff:

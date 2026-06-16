@@ -1,6 +1,6 @@
 ---
-title: 6. Creating a Simple Treemap
-parent: Creating Data Visualizations Using Tableau Desktop (Beginner)
+title: "6. Creating a Simple Treemap"
+parent: "Creating Data Visualizations Using Tableau Desktop (Beginner)"
 layout: default
 created_date: 2019-03-27
 staff:
