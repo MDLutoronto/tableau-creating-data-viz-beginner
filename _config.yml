@@ -1,5 +1,5 @@
 ## Site settings
-title: "Creating Data Visualizations Using Tableau Desktop (Beginner)"
+title: "Creating Data Visualizations Using Tableau (Beginner)"
 description: "Workshops and guides from the Map & Data Library, University of Toronto"
 url: "https://MDLutoronto.github.io/tableau-creating-data-viz-beginner" # change the slug to the repo's name ('jtd-template' in this case)
 repository: "MDLutoronto/tableau-creating-data-viz-beginner" # for github-metadata
