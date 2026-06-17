@@ -32,11 +32,13 @@ Before we drag a sheet onto the dashboard, let's also make some adjustments to o
 
 **Adjust the title**, removing the mention of a particular country. Drag the **Country** pill on the Filters shelf, set to India, back towards the **Dimensions** and **Measures** section to remove it (which you can do with any variables you want to remove from your visualization).
 
+   ![Image showing Sheet 1 with filter removed and title adjusted.]({{ '/assets/images/tableau_beginner_008aa.png' | relative_url }})
+
 Then go back to the dashboard by clicking on **Dashboard 1** at the bottom. From the left side of your screen, drag **Sheet 1** to the dashboard area.
 
    ![Image showing Sheet 1 highlighted in the Sidebar as well as the result of dragging the sheet to the dashboard area.]({{ '/assets/images/tableau_beginner_008a.png' | relative_url }})
 
-Next drag **Sheet 2** to the bottom of the dashboard area. As you are dragging each sheet, Tableau will shade in the section of the page the sheet will occupy once you release it, so use this as your guide to the placement of your sheets in the dashboard.
+Next drag **Sheet 2** to the bottom of the dashboard area. As you are dragging each sheet, Tableau will shade in the section of the page the sheet will occupy once you release it, so use this as your guide to place your sheets in the dashboard.
 
    ![Image showing Sheet 2 highlighted in the Sidebar as well as the bottom of the dashboard area highlighted, where Sheet 2 has been dragged. ]({{ '/assets/images/tableau_beginner_008b.png' | relative_url }})
 

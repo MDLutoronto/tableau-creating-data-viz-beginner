@@ -72,12 +72,17 @@ You can also customize your axes. Right-click on your y-axis title, and select *
    
 Change the title (under **Axis** **Titles** in the **General** tab, next to **Custom**) to write out the word “Average” instead of “Avg.” Then close the window. The change will be applied automatically, so there is no need to click a “save” button (you will notice there is no "save" button). Click the “x” in the top right-hand corner to exit the Edit Axis window.
 
-   ![Image of the edit axis options pop-up window and the lack of an "ok" box to click]({{ '/assets/images/tableau_beginner_003e.JPG' | relative_url }})   
+   ![Image of the edit axis options pop-up window and the lack of an "ok" box to click]({{ '/assets/images/tableau_beginner_003e.png' | relative_url }})   
 
-You can also annotate your visualization. Perhaps you want to point out that the summer months are Monsoon season for India, which may be why there is such a spike in average rainfall. Right-click on white space above the graph above those months and select **Annotate** and pick **Area...** Then type in “Monsoon Season”, change its font size to 12, bold it, and click **OK**. Now you can resize and move the box and place it where you want in the graph.     
+You can also annotate your visualization. Perhaps you want to point out that the summer months are Monsoon season for India, which may be why there is such a spike in average rainfall. Right-click on white space above the graph above those months and select **Annotate** and pick **Area...** Then type in “Monsoon Season”, change its font size to 12, bold it, and click **OK**. Now you can resize and move the box and place it where you want in the graph. 
+
+   ![Right clicking on the graph and highlighting the context menu with Annotate and then Area selected]({{ '/assets/images/tableau_beginner_003ea.png' | relative_url }})
+   ![Edit window with Monsoon Season written with bolding and font size applied]({{ '/assets/images/tableau_beginner_003eb.png' | relative_url }})
    
-Finally, we can give our visualization a title by double-clicking on **Sheet 1** at the top and replacing the text with our title “Average Monthly Rainfall for India” and click **OK**. Done! You have created your first visualization on Tableau Desktop.  
+Finally, we can give our visualization a title by double-clicking on **Sheet 1** at the top and replacing the text with our title “Average Monthly Rainfall for India” and click **OK**. 
 
-   ![Final bar graph is shown with the new text box and new title highlighted.]({{ '/assets/images/tableau_beginner_003f.JPG' | relative_url }})   
+   ![Final bar graph is shown with the new text box and new title highlighted.]({{ '/assets/images/tableau_beginner_003f.JPG' | relative_url }})
+
+Done! You have created your first visualization in Tableau!     
 
 **Technique:** [Data Visualization](https://mdlutoronto.github.io/tutorials-search/?technique=Data+Visualization) \| **Tools:** [Tableau](https://mdlutoronto.github.io/tutorials-search/?tool=Tableau)

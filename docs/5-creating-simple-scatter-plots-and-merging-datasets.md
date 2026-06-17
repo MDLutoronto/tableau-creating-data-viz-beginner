@@ -32,7 +32,7 @@ At the top you can now see the two datasets listed and connected together. The b
 
 Again, once you're happy with your data, you can create a new worksheet to start building a new visualization by clicking on the **new worksheet icon** (at the bottom left of your screen to the right of Sheet 2).
 
-This time, let’s take a look at creating a scatter plot using the **Show Me** feature. To do so, *first* hold down the **CTRL** button on your keyboard (Command key on a Mac) and click on **Grants** and **Years of Experience.** *Secondly*, click on the **Show Me** tab to expand it. We see that a Scatter plot is one of the recommendations (i.e., outlined) – select it. If you’re not sure which one it is, hover over the images and then read the description below to find out which one is the scatter plot. *Thirdly,* observe how Tableau automatically populated your column and row fields once the scatter plot option was selected.   
+This time, let’s take a look at creating a scatter plot using the **Show Me** feature. To do so, *first* hold down the **CTRL** button on your keyboard (Command key on a Mac) and click on **Grants** and **Years of Experience.** *Second*, click on the **Show Me** tab to expand it. We see that a Scatter plot is one of the recommendations (i.e., outlined) – select it. If you’re not sure which one it is, hover over the images and then read the description below to find out which one is the scatter plot. *Third,* observe how Tableau automatically populated your column and row fields once the scatter plot option was selected.   
 
    ![The screen is pictured with the numbers 1 through 3, corresponding to the instructions above.]({{ '/assets/images/tableau_beginner_005c.JPG' | relative_url }})
 

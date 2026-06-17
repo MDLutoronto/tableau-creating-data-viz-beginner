@@ -30,7 +30,7 @@ You’ll see below that the data has changed format and the icon now looks like 
 
    ![Image showing the changed variable type to date from numeric]({{ '/assets/images/tableau_beginner_004c.JPG' | relative_url }})
 
-Once happy with your data, you can create a new worksheet to start building a new visualization by clicking on the tab next to where it says Sheet 1. This is a **new worksheet icon**.
+Once you are happy with your data types, you can create a new worksheet to start building a new visualization by clicking on the tab next to where it says Sheet 1. This is a **new worksheet icon**.
 
    ![Image showing the new worksheet button]({{ '/assets/images/Tableau_2copy.PNG' | relative_url }})
 
@@ -48,11 +48,11 @@ We would like to see each country’s data separately, so let’s drag the **Cou
 
 One way to simplify this would be to show 2 countries to compare their temperature distributions. Drag the **Country** variable over to the **Filters** shelf. Click on the **None** button to first clear the selections. Then select two countries only – let’s pick **Canada** and **Brazil** and click on OK. Now we are just filtering the data to show only Canada and Brazil to tell our visual story.
 
-**Note:** that if you can't see this Country legend on the right, then you need to close the "Show Me" window on the right by clicking on Show Me at the top right.
+*Note: If you can't see this Country legend on the right, then you need to close the "Show Me" window on the right by clicking on Show Me at the top right.*
 
    ![Line graph shows temperatures for Brazil and Canada, with the Filters and Country boxes highlighted]({{ '/assets/images/BrazilCAN2_0.JPG' | relative_url }}) 
 
-Another way we could do present this visual would be to allow the user to filter it themselves based on what countries they are interested in. To do that, go back to the **Filters** shelf, right-click on the **Country** pill and pick **Edit Filter…** Select the **All** button to re-select all the countries and then click **OK**. Then right-click on the **Country** pill again, but this time select **Show Filter**. Now you can see the filters show up on the right. We can select or deselect as we like and the graph changes.
+Another way we could present this visual would be to allow the user to filter it themselves based on what countries they are interested in. To do that, go back to the **Filters** shelf, right-click on the **Country** pill and pick **Edit Filter…** Select the **All** button to re-select all the countries and then click **OK**. Then right-click on the **Country** pill again, but this time select **Show Filter**. Now you can see the filters show up on the right. We can select or deselect as we like and the graph changes.
 
    ![A line graph displaying temperature for various countries. The ‘Country’ pill in the Filter Shelf as well as the resulting Country Filters are highlighted. ]({{ '/assets/images/Section4%20T6_0.JPG' | relative_url }})
 
@@ -60,15 +60,17 @@ To further help the user read your graph, you could also add a highlighter. Go b
 
    ![Image displaying a dropdown menu emerging from the 'Country' pill in the filters card. In the dropdown menu 'Show Highlighter' is selected.]({{ '/assets/images/tableau_beginner_004f.jpg' | relative_url }})
 
-The user can pick a country and the graph emphasizes that country. To try it out, make sure you aren’t filtering any of the countries first, then click on the **Highlight County** search box to see the list of countries, and then hover over one – try **Canada**. You should see it emphasized in the graph.
+The user can pick a country and the graph emphasizes that country. To try it out, make sure you aren’t filtering any of the countries first, then click on the **Highlight County** search box to see the list of countries, and then hover over one – try **Japan**. You should see it emphasized in the graph.
 
-Let’s adjust a bit more of the formatting on this graph. For one thing, I don’t like how the months are displayed at the bottom. We can fix that. Right-click on one of the months and select **Format**…
+   ![Image displaying a dropdown menu emerging from the 'Country' pill in the filters card. In the dropdown menu 'Show Highlighter' is selected.]({{ '/assets/images/tableau_beginner_004fa.png' | relative_url }})
+
+Let’s adjust a bit more of the formatting on this graph. For one thing, I don’t like how the months are displayed at the bottom. We can fix that. Right click on one of the months and select **Format**…
 
    ![Image displaying a dropdown menu emerging from the Months' axis. In the dropdown menu 'Format...' is selected.]({{ '/assets/images/tableau_beginner_004g.jpg' | relative_url }})
 
-The **Format** pane should show up on the left. From the **Header** tab, under **Default**, where it says **Dates**, select from the drop-down menu, **Abbreviation**. Then click anywhere on the graph to save it. Click on the x at the top right of the Format window to close it so you can see your variables again.
+The **Format** pane should show up on the left. From the **Header** tab, under **Default**, where it says **Dates**, select from the drop-down menu, **Abbreviation**. Then click anywhere on the graph to save it. Click on the x at the top right of the Format pane to close it so you can see your variables again.
 
-*If you are encountering a problem where the "Dates" option is not showing up under the Default section, you might have the wrong data type selected for your "MONTH(Month)" variable in the Columns section. You can fix this issue by right-clicking the "MONTH(Month)" pill (in the Columns section) and selecting the other "Month" option (i.e., the first Month option). Then try the previous step again.*
+*If you are encountering a problem where the "Dates" option is not showing up under the Default section, you might have the wrong data type selected for your "MONTH(Month)" variable in the Columns section. You can fix this issue by right clicking the "MONTH(Month)" pill (in the Columns section) and selecting the other "Month" option (i.e., the first Month option). Then try the previous step again.*
 
    ![Image showing the location of the Dates formatting options in the ‘Format Month’ window. A drop-down menu emerges from it, with the option ‘Abbreviation’ highlighted. ]({{ '/assets/images/tableau_beginner_004h.jpg' | relative_url }})
 

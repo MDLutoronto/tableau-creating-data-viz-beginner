@@ -34,11 +34,11 @@ Finally, you can publish your worksheets and dashboards so that readers can inte
 
 There are also paid options ([Tableau Online](https://www.tableau.com/products/cloud-bi?ab=1) and [Tableau Server](https://www.tableau.com/products/server)), if you want to be able to limit permissions on who can view your visualizations or to publish to your own server; use the **Publish Workbook** option from the **Server** menu to access these options (Tableau Desktop only).
 
-You can also get inspiration for future visualizations and dashboards by browsing Tableau Public's online [gallery](https://public.tableau.com/en-us/s/gallery)
+You can also get inspiration for future visualizations and dashboards by browsing Tableau Public's [Viz of the Day gallery](https://public.tableau.com/app/discover/viz-of-the-day)
 
    ![Image showing the Tableau Public gallery page]({{ '/assets/images/tableaupublicgallery.PNG' | relative_url }})
 
-In some cases, you may download the workbooks these visualizations were created in (and study them to recreate your own visualizations!). You can see how to download or explore these Tableau Public visualizations by clicking the download button, which will prompt a pop-up window with the options set up by the user who published the visualization.
+In some cases, you may download the workbooks these visualizations were created in (and study them to recreate your own visualizations!). You can see how to download or explore these Tableau Public visualizations by clicking the download button, which will display a pop-up window with the options set up by the user who published the visualization.
 
    ![Image showing a sample Tableau Public dashboard and the download options for this dashboard, including Image, PDF, Powerpoint, and Workbook]({{ '/assets/images/sharingtableau_workbooksa.PNG' | relative_url }})
    ![Image showing the download options]({{ '/assets/images/sharingtableau_workbooksb.png' | relative_url }})
